@@ -1,0 +1,9 @@
+# solving idea
+sorting ->adjacent element 비교 -> 같으면 return true(중복 존재)
+
+# data structure
+1. set vs map
+- set: set of data
+- map: set of key, value
+2. map vs unordered map
+- unordered map: hash 이용 -> fast
