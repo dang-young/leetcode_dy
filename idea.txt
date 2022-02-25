@@ -2,6 +2,12 @@
 
 sorting ->adjacent element 비교 -> 같으면 return true(중복 존재)
 
+* dynamic programming_재귀와 반복문
+- dynamic programming 문제는 재귀의 개념을 떠올릴것
+- 재귀는 시간 소요 -> 반복문으로 고쳐야하는 경우 발생 가능
+(예) 피보나치 수열: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=yyj9301&logNo=221223995090
+
+
 # data structure
 
 * set vs map
