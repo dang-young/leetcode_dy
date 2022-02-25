@@ -4,9 +4,7 @@ public:
         vector<int> p;
         int m = pow(10,4);
         int n=prices.size();
-        for(int i=0; i<n; i++){
-            p.push_back(0);
-        }
+        for(int i=0; i<n; i++){p.push_back(0);}
         p[0]=0;
         m=prices[0];
         if(n>0){
