@@ -7,6 +7,9 @@ sorting ->adjacent element 비교 -> 같으면 return true(중복 존재)
 - 재귀는 시간 소요 -> 반복문으로 고쳐야하는 경우 발생 가능
 (예) 피보나치 수열: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=yyj9301&logNo=221223995090
 
+* two indexes
+- 선행하는 인덱스와 순차적으로 쌓여가는 인덱스
+
 
 # data structure
 
