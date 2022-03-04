@@ -2,8 +2,7 @@ class Solution {
 public:
     string reorganizeString(string s) {
         int len = s.length();
-        int j;
-        bool flag = false;
+        int j; bool flag = false;
         for(int i=0; i<len; i++){
             if(s[i]==s[i+1]){
                 j=i+1;
@@ -22,3 +21,4 @@ public:
         return s;
     }
 };
+
