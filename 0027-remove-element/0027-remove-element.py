@@ -10,3 +10,5 @@ class Solution:
             if i == idx: break
             i += 1
         return idx+1
+
+        
