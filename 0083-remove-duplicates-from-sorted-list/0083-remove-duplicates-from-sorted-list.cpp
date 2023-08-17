@@ -15,7 +15,9 @@ public:
         if(head==NULL) return head;
         while(head->next!=NULL){
             if(head->val == head->next->val){
+                ListNode *tmp = head->next;
                 head->next = head->next->next;
+                delete tmp;
             }else{
                 head = head->next;
             }
